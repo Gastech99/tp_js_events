@@ -1,0 +1,127 @@
+body{
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.inner {
+    text-align: center;
+}
+
+.principal {
+    text-align: center;
+    height: 400px;
+    width: 90%;
+    background: #0318fe;
+    margin: auto;
+    color: white;
+}
+
+#p1 {
+    background: red;
+    height: 85px; /* Assure que la hauteur et la largeur sont égales pour un cercle parfait */
+    width: 85px;
+    border-radius: 50%; /* Crée le cercle */
+    display: flex; /* Utilisation de flexbox pour aligner le contenu */
+    justify-content: center; /* Centrage horizontal du texte */
+    align-items: center; /* Centrage vertical du texte */
+    margin: auto; /* Centrer le cercle par rapport à son parent (horizontalement) */
+    color: white; /* Facultatif: pour que le texte soit visible sur le fond rouge */
+    font-size: 14px; /* Taille de police, ajustable selon le besoin */
+    text-align: center; /* Centrer le texte en ligne si nécessaire */
+}
+
+/* #changeTextButton {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: green;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    /* font-size: 28px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  } */
+
+  .btn, button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+  }
+  .btn:hover, button:hover {
+    background-color: #0fed25;
+  }
+
+  #container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+  }
+  #animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: red;
+  }
+
+
+#dic {
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBECF0;
+    align-items: center;
+}
+
+#searchBar {
+    background-color:#fff;
+    display: flex;
+    width: 450px;
+    padding: 0px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+#searchBar input  {
+    width: calc(100% - 100px);
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    background-color: ghostwhite;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #toggleButton{
+    display: flex;
+    margin-left: 1032px;
+padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  }
+
+  #toggleButton:hover {
+    background-color: #45a049;
+  }
+
+  /* Styles pour le mode sombre */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }

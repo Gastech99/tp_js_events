@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>DOM Manipulation</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Dark/Light Mode Toggle</h1>
+        <button id="toggleButton">Dark Mode</button>
+      </div>
+    </header>
+    <hr />
+    <div>
+      <div class="principal">
+        <p>Finding HTML Elements by Tag Name.</p>
+        <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+        <p id="demo"></p>
+        <div id="texte"></div>
+        <p id="p1">Text avant</p>
+        <button id="changeTextButton" onclick="gestionnaireUnClick()">
+          Text change
+        </button>
+      </div>
+      <hr />
+      <div class="form">
+        <h2>JavaScript Validation</h2>
+
+        <p>Please input a number between 1 and 10:</p>
+
+        <input id="numb" />
+
+        <button id="formIntput" onclick="myFunction()">Submit</button>
+
+        <p id="demo2"></p>
+      </div>
+
+      <hr />
+      <h2>My First JavaScript Animation</h2>
+
+      <div id="container">
+        <div id="animate"></div>
+      </div>
+      <hr />
+      <div>
+        <p>Click "Try it" to execute the displayDate() function.</p>
+        <button id="myBtn">Affiche l'heure</button>
+
+        <p id="demo3"></p>
+      </div>
+      <hr />
+      <!-- <div>
+        <div
+          id="over"
+          onmouseover="mOver()"
+          onmouseout="mOut()"
+          style="
+            background-color: #d94a38;
+            width: 120px;
+            height: 20px;
+            padding: 40px;
+          "
+        >
+          Mouse Over Me
+        </div>
+      </div> -->
+
+      <div id="clickChange">
+        <h2>The onclick Attribute</h2>
+        <h2 onclick="this.innerHTML='Ooops!'">Click on this text!</h2>
+      </div>
+      <hr />
+      <div id="dic">
+        <p>
+          Une barre de recherche qui permet de chercher un mot dans un
+          dictionnaire
+        </p>
+        <div id="searchBar">
+          <input type="text" id="text" placeholder="Rechercher" />
+          <button onclick="search()">Search</button>
+        </div>
+        <div id="resultat"></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
